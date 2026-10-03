@@ -1,2 +1,4 @@
 # av-evasion-bitwipe-lab
-ducational incident: AV bypass via byte modification and process injection. Synthetic IOC, Sigma/YARA, DFIR report for SOC training.
+
+Проект в области DFIR и Detection Engineering, демонстрирующий техники обхода антивирусной защиты через побайтовую модификацию файлов и инъекции в процессы.  
+Включает синтетические индикаторы компрометации (IOC), правила Sigma/YARA и развёрнутый DFIR-отчёт для обучения и отработки навыков SOC/DFIR-команд.
