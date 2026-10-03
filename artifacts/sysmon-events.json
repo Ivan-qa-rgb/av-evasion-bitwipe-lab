@@ -1,0 +1,36 @@
+[
+  {
+    "EventID": 1,
+    "TimeGenerated": "2024-04-17T10:00:03.000Z",
+    "Image": "C:\\Users\\user\\AppData\\Local\\Temp\\svchost_.exe",
+    "CommandLine": "\"C:\\Users\\user\\AppData\\Local\\Temp\\svchost_.exe\"",
+    "User": "ACME\\user"
+  },
+  {
+    "EventID": 7,
+    "TimeGenerated": "2024-04-17T10:00:05.000Z",
+    "Image": "C:\\Users\\user\\AppData\\Local\\Temp\\svchost_.exe",
+    "ImageLoaded": "C:\\Users\\user\\AppData\\Roaming\\Microsoft\\decryptor.dll",
+    "Signed": false
+  },
+  {
+    "EventID": 8,
+    "TimeGenerated": "2024-04-17T10:00:08.000Z",
+    "SourceImage": "C:\\Users\\user\\AppData\\Local\\Temp\\svchost_.exe",
+    "TargetImage": "C:\\Windows\\explorer.exe",
+    "GrantedAccess": "0x1F0FFF"
+  },
+  {
+    "EventID": 10,
+    "TimeGenerated": "2024-04-17T10:00:08.500Z",
+    "SourceImage": "C:\\Users\\user\\AppData\\Local\\Temp\\svchost_.exe",
+    "TargetImage": "C:\\Windows\\explorer.exe",
+    "GrantedAccess": "0x1F0FFF"
+  },
+  {
+    "EventID": 25,
+    "TimeGenerated": "2024-04-17T10:00:09.000Z",
+    "Process": "C:\\Windows\\explorer.exe",
+    "Type": "Hollowing / Modification"
+  }
+]
