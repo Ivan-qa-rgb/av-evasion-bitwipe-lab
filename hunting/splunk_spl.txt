@@ -1,0 +1,4 @@
+index=sysmon EventID=8
+(SourceImage="*\\Temp\\*" OR SourceImage="*\\AppData\\*")
+TargetImage="*\\explorer.exe"
+| table _time SourceImage TargetImage GrantedAccess
