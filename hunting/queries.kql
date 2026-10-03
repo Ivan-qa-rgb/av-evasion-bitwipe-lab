@@ -1,0 +1,6 @@
+// Пример KQL-запроса для поиска инъекций из Temp/AppData
+Sysmon
+| where EventID == 8
+| where SourceImage contains @"\Temp\" or SourceImage contains @"\AppData\"
+| where TargetImage endswith @"\explorer.exe"
+| project TimeGenerated, SourceImage, TargetImage, GrantedAccess
